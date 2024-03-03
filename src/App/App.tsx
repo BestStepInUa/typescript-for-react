@@ -8,7 +8,7 @@ type Props = {
   user: User;
 };
 
-export function App({ user }: Props, { user2 }: Props2) {
+export function App({ user }: Props, user2: Props2) {
   return (
     <>
       <div>
